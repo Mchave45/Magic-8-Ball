@@ -1,8 +1,8 @@
-var userName = 'marcos';
+var userName = '';
 
-userName ? console.log('Hello, ' + userName + '!') : console.log("Hello!"); 
+userName ? console.log('Hello, ' + userName + '!') : console.log("Hello!");
 
-var userQuestion = ''; 
+var userQuestion = '';
  console.log(userName + ' asked: ' + userQuestion);
 
 var randomNumber = Math.floor(Math.random() * 8);
@@ -36,6 +36,6 @@ switch (eightBall) {
   case 8:
   eightBall = 'Signs point to yes, hell yes, it\'s totally gonna happen'
   break;
-  
+
 }
 console.log('The Magic 8 Ball answered: ' + eightBall);
